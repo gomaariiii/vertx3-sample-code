@@ -1,4 +1,4 @@
-package jp.co.gomaariiii.example;
+package jp.co.gomaariiii.example.sendfile;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -6,14 +6,13 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 import io.vertx.core.Vertx;
 import io.vertx.junit5.Timeout;
 import io.vertx.junit5.VertxExtension;
 import io.vertx.junit5.VertxTestContext;
-import jp.co.gomaariiii.example.SendFileVerticle;
+import jp.co.gomaariiii.example.sendfile.SendFileVerticle;
 
 @ExtendWith(VertxExtension.class)
 public class TestSendFileVerticle {

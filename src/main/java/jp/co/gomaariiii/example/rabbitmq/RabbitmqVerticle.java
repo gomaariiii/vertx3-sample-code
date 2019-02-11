@@ -1,4 +1,4 @@
-package jp.co.gomaariiii.example;
+package jp.co.gomaariiii.example.rabbitmq;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;

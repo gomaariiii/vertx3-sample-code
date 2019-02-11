@@ -1,4 +1,4 @@
-package jp.co.gomaariiii.example;
+package jp.co.gomaariiii.example.sendfile;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.http.HttpServerResponse;
