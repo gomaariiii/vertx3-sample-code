@@ -69,6 +69,7 @@ public class TestRabbitmqVerticle {
           throws IOException {
         String message = new String(body, "UTF-8");
         System.out.println(" [x] Received '" + message + "'");
+        channel.basicAck(envelope.getDeliveryTag(), false);
       }
     };
 
